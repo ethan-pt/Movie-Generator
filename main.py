@@ -1,11 +1,14 @@
-from os.path import exists
 from random import choice
 from tkinter import ttk, messagebox
 import tkinter as tk
 import json
 
-# If movies.json is in the same folder, open it
-if exists('movies.json'):
+# Try to open movies.json, if it doesn't exist, create it
+try:
+    movie_data = open('movie.json', 'x')
+    movie_data.close()
+
+except:
     with open('movies.json', mode = 'r') as movie_r:
         movie_data = json.load(movie_r)
 
