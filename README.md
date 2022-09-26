@@ -52,6 +52,6 @@ Project is: _finished_
 
 ## Contact
 
-[Check out my GitHub](https://github.com/Assentt)
+[Check out my GitHub](https://github.com/ethan-pt)
 
 [Send me an Email](mailto:tubbeethan@gmail.com)
